@@ -39,7 +39,7 @@ const AboutSectionTwo = () => {
                     Human-Centered, AI-Powered Support
                   </h3>
                   <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                    We combine the efficiency of AI with the warmth of real human connection. Whether it's troubleshooting or tailored guidance, our support team is always here for you—personally and promptly.
+                    We combine the efficiency of AI with the warmth of real human connection. Whether it&apos;s troubleshooting or tailored guidance, our support team is always here for you—personally and promptly.
                   </p>
                 </div>
                 <div className="mb-1">

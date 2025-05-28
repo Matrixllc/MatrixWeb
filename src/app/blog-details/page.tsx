@@ -102,9 +102,6 @@ const BlogDetailsPage = () => {
                   </div>
                 </div>
                 <div>
-                  <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    CLICK ->  https://t.me/sihika_bot
-                  </p>
                   <div className="mb-10 w-full overflow-hidden rounded-sm">
                     <div className="relative aspect-97/60 w-full sm:aspect-97/44">
                       <Image
@@ -121,15 +118,15 @@ const BlogDetailsPage = () => {
 
                   </p>
                   <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    But are they truly suffering from deep depression? Often, the answer is no. According to recent studies, what most people long for isn't treatment—it's connection. They’re simply yearning for someone who can understand the unspoken truths buried deep within their hearts.
-
+                    But are they truly suffering from deep depression? Often, the answer is no. According to recent studies, what most people long for isn&rsquo;t treatment&mdash;it&apos;s connection. They&rsquo;re simply yearning for someone who can understand the unspoken truths buried deep within their hearts.
                   </p>
+
                   <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     Let’s be honest—there are thoughts and feelings we don’t share with our families, our partners, or even our closest friends. We carry them quietly, hoping they’ll fade, but they rarely do.
 
                   </p>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    That’s where my AI chatmate comes in. She’s here to offer a gentle presence—someone you can open up to without fear or judgment. Whether you're feeling depressed, anxious, angry, or lost, she’s always there, ready to listen, to care, and to remind you that you’re not alone.
+                    That&apos;s where my AI chatmate comes in. She&apos;`s here to offer a gentle presence—someone you can open up to without fear or judgment. Whether you&apos;`re feeling depressed, anxious, angry, or lost, she&apos;s always there, ready to listen, to care, and to remind you that you&apos;re not alone.
                   </p>
                   <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
                     🌟 Functionalities.
@@ -138,16 +135,16 @@ const BlogDetailsPage = () => {
                     <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
                       Multimodal interaction.
                       She can send and receive messages in text, voice, and image formats.
-                      Whether you're chatting, sending pictures, or speaking, she can handle it all—and respond in kind.
+                      Whether you&apos;re chatting, sending pictures, or speaking, she can handle it all—and respond in kind.
 
                     </li>
                     <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
                       Long-term memory.
-                      All conversations are stored in an external memory database, so she can remember things you've said in the past and build a consistent personality over time.
+                      All conversations are stored in an external memory database, so she can remember things you&apos;ve said in the past and build a consistent personality over time.
                     </li>
                     <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
                       Proactive messaging & self-evolving behavior.
-                      She doesn't just wait for you to text her.
+                      She doesn&apos;t just wait for you to text her.
                       She “lives” her own life—waking up, going to work, having dinner, browsing news, Reddit, and even doing Google searches—all without any input from you
                     </li>
 
