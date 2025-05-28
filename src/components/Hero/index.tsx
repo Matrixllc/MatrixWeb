@@ -18,15 +18,7 @@ const Hero = () => {
                   We specialize in cross-platform application development, including iOS, HarmonyOS, Android, and various web platforms,
                   helping businesses build seamless and interconnected digital ecosystems.
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
 
-                  {/*<Link*/}
-                  {/*  href="https://github.com/NextJSTemplates/startup-nextjs"*/}
-                  {/*  className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"*/}
-                  {/*>*/}
-                  {/*  Star on GitHub*/}
-                  {/*</Link>*/}
-                </div>
               </div>
             </div>
           </div>

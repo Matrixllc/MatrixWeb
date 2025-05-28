@@ -19,8 +19,7 @@ const BlogDetailsPage = () => {
             <div className="w-full px-4 lg:w-8/12">
               <div>
                 <h2 className="mb-8 text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight dark:text-white">
-                  10 amazing sites to download stock photos & digital assets for
-                  free
+                  Leveraging AI for Mental Health: Building a Chatbot for Anxiety Relief
                 </h2>
                 <div className="border-body-color/10 mb-10 flex flex-wrap items-center justify-between border-b pb-4 dark:border-white/10">
                   <div className="flex flex-wrap items-center">
@@ -36,7 +35,7 @@ const BlogDetailsPage = () => {
                       </div>
                       <div className="w-full">
                         <span className="text-body-color mb-1 text-base font-medium">
-                          By <span>Musharof Chy</span>
+                          By <span>HAOYIN</span>
                         </span>
                       </div>
                     </div>
@@ -104,9 +103,7 @@ const BlogDetailsPage = () => {
                 </div>
                 <div>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat.
+                    CLICK ->  https://t.me/sihika_bot
                   </p>
                   <div className="mb-10 w-full overflow-hidden rounded-sm">
                     <div className="relative aspect-97/60 w-full sm:aspect-97/44">
@@ -119,54 +116,45 @@ const BlogDetailsPage = () => {
                     </div>
                   </div>
                   <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis enim lobortis scelerisque fermentum. Neque
-                    sodales ut etiam sit amet. Ligula ullamcorper
-                    <strong className="text-primary dark:text-white">
-                      malesuada
-                    </strong>
-                    proin libero nunc consequat interdum varius. Quam
-                    pellentesque nec nam aliquam sem et tortor consequat.
-                    Pellentesque adipiscing commodo elit at imperdiet.
+                    A lot of people today feel an overwhelming sense of loneliness. They begin to wonder if something is wrong with their minds, and many end up spending a fortune on therapy sessions.
+
+
+                  </p>
+                  <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    But are they truly suffering from deep depression? Often, the answer is no. According to recent studies, what most people long for isn't treatment—it's connection. They’re simply yearning for someone who can understand the unspoken truths buried deep within their hearts.
+
+                  </p>
+                  <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Let’s be honest—there are thoughts and feelings we don’t share with our families, our partners, or even our closest friends. We carry them quietly, hoping they’ll fade, but they rarely do.
+
                   </p>
                   <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    Semper auctor neque vitae tempus quam pellentesque nec.
-                    <span className="text-primary underline dark:text-white">
-                      Amet dictum sit amet justo
-                    </span>
-                    donec enim diam. Varius sit amet mattis vulputate enim nulla
-                    aliquet porttitor. Odio pellentesque diam volutpat commodo
-                    sed.
+                    That’s where my AI chatmate comes in. She’s here to offer a gentle presence—someone you can open up to without fear or judgment. Whether you're feeling depressed, anxious, angry, or lost, she’s always there, ready to listen, to care, and to remind you that you’re not alone.
                   </p>
                   <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
-                    Digital marketplace for Ui/Ux designers.
+                    🌟 Functionalities.
                   </h3>
-                  <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
-                  </p>
                   <ul className="text-body-color mb-10 list-inside list-disc">
                     <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
-                      Consectetur adipiscing elit in voluptate velit.
+                      Multimodal interaction.
+                      She can send and receive messages in text, voice, and image formats.
+                      Whether you're chatting, sending pictures, or speaking, she can handle it all—and respond in kind.
+
                     </li>
                     <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
-                      Mattis vulputate cupidatat.
+                      Long-term memory.
+                      All conversations are stored in an external memory database, so she can remember things you've said in the past and build a consistent personality over time.
                     </li>
                     <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
-                      Vulputate enim nulla aliquet porttitor odio pellentesque
+                      Proactive messaging & self-evolving behavior.
+                      She doesn't just wait for you to text her.
+                      She “lives” her own life—waking up, going to work, having dinner, browsing news, Reddit, and even doing Google searches—all without any input from you
                     </li>
-                    <li className="text-body-color mb-2 text-base font-medium sm:text-lg lg:text-base xl:text-lg">
-                      Ligula ullamcorper malesuada proin
-                    </li>
+
                   </ul>
                   <div className="bg-primary/10 relative z-10 mb-10 overflow-hidden rounded-md p-8 md:p-9 lg:p-8 xl:p-9">
                     <p className="text-body-color text-center text-base font-medium italic">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod incididunt utionals labore et dolore magna
-                      aliqua. Quis lobortis scelerisque fermentum, The Neque ut
-                      etiam sit amet.
+                      TRUST YOUR HEART
                     </p>
                     <span className="absolute top-0 left-0 z-[-1]">
                       <svg
@@ -309,10 +297,27 @@ const BlogDetailsPage = () => {
                       </svg>
                     </span>
                   </div>
-                  <p className="text-body-color mb-10 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    consectetur adipiscing elit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    mattis vulputate cupidatat.
+                  <h3 className="font-xl mb-10 leading-tight font-bold text-black sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight dark:text-white">
+                    ⚙️ Technical Challenges
+                  </h3>
+                  <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Message generation approach.
+                    For generating most responses, I decided to go with a traditional LLM setup (system prompt + API call), not an agent.
+                    Why? Because agents tend to be slower and consume way more tokens when they do reasoning.
+
+                  </p>
+                  <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Injecting personality.
+                    I wanted Sihika to have some specific traits—like loving Harry Potter and baseball.
+                    At first, I added these directly into the system prompt.
+                    But that backfired—she ended up bringing up baseball or Harry Potter in nearly every single message, even when it made no sense!
+                    To fix that, I moved those traits into long-term memory.
+                    Now, each time a message is generated, it looks up relevant memories and appends only the useful ones to the prompt.
+                  </p>
+                  <p className="text-body-color mb-8 text-base leading-relaxed font-medium sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+                    Event generation.
+                    For simulating her day-to-day activities, I built an event generator using a React-based agent.
+                    This agent has access to multiple tools, which lets it create rich, believable routines for her life.
                   </p>
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
