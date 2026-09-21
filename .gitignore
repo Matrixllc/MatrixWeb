@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 .vscode
+.idea/
+.playwright-cli/
 # testing
 /coverage
 

@@ -5,12 +5,12 @@ import featuresData from "./featuresData";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="services" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-              title="Key Features That Drive Intelligent Operations"
-              paragraph="Explore how our AI-powered and human-centered solutions are built to streamline your business, enhance collaboration, and deliver real value—right where you need it most."
-              center
+            title="Services Built For Real Teams"
+            paragraph="From product discovery to ongoing support, we help teams launch reliable software across mobile, web, and AI-enabled workflows."
+            center
           />
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">

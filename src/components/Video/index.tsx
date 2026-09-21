@@ -14,7 +14,8 @@ export default function Video() {
         <div className="container">
           <SectionTitle
             title="We are ready to help"
-            paragraph="Behind every smart solution is a team that listens. From AI-powered insights to human support, we're ready when you are."            center
+            paragraph="Behind every smart solution is a team that listens. From AI-powered insights to human support, we are ready when you are."
+            center
             mb="80px"
           />
         </div>
@@ -29,6 +30,23 @@ export default function Video() {
                     className="object-cover"
                     fill
                   />
+                  <button
+                    type="button"
+                    aria-label="Play introduction video"
+                    onClick={() => setOpen(true)}
+                    className="text-primary shadow-two absolute top-1/2 left-1/2 flex h-[70px] w-[70px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-white/95 transition hover:scale-105 hover:bg-white"
+                  >
+                    <svg
+                      width="22"
+                      height="24"
+                      viewBox="0 0 22 24"
+                      fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                    >
+                      <path d="M21 10.2679C22.3333 11.0377 22.3333 12.9623 21 13.7321L3 24.1244C1.66667 24.8942 0 23.9319 0 22.3923V1.60769C0 0.0680885 1.66667 -0.894162 3  -0.124362L21 10.2679Z" />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -49,4 +67,4 @@ export default function Video() {
       />
     </>
   );
-};
+}

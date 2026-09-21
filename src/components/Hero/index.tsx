@@ -5,25 +5,65 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
+        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-white pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px] 2xl:pt-[210px] 2xl:pb-[200px]"
       >
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                   Tech Solutions To YOUR World.
+                <h1 className="mb-5 text-3xl leading-tight font-bold text-black sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight dark:text-white">
+                  Tech Solutions To Your World.
                 </h1>
-                <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  We specialize in cross-platform application development, including iOS, HarmonyOS, Android, and various web platforms,
-                  helping businesses build seamless and interconnected digital ecosystems.
+                <p className="text-body-color dark:text-body-color-dark mb-12 text-base leading-relaxed! sm:text-lg md:text-xl">
+                  We design and ship cross-platform apps, modern web platforms,
+                  AI-assisted workflows, and integrations that help teams move
+                  faster without losing reliability.
                 </p>
-
+                <div className="mb-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
+                  <Link
+                    href="/contact"
+                    className="bg-primary hover:bg-primary/90 shadow-btn hover:shadow-btn-hover rounded-xs px-8 py-4 text-base font-semibold text-white transition duration-300"
+                  >
+                    Start a Project
+                  </Link>
+                  <Link
+                    href="/#services"
+                    className="border-stroke text-dark hover:border-primary hover:text-primary dark:border-stroke-dark dark:hover:border-primary rounded-xs border px-8 py-4 text-base font-semibold transition duration-300 dark:text-white"
+                  >
+                    View Services
+                  </Link>
+                </div>
+                <div className="border-body-color/10 grid grid-cols-1 gap-6 border-t pt-8 sm:grid-cols-3 dark:border-white/10">
+                  <div>
+                    <p className="text-3xl font-bold text-black dark:text-white">
+                      4+
+                    </p>
+                    <p className="text-body-color dark:text-body-color-dark text-sm font-medium">
+                      platforms covered
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-3xl font-bold text-black dark:text-white">
+                      AI
+                    </p>
+                    <p className="text-body-color dark:text-body-color-dark text-sm font-medium">
+                      automation ready
+                    </p>
+                  </div>
+                  <div>
+                    <p className="text-3xl font-bold text-black dark:text-white">
+                      24h
+                    </p>
+                    <p className="text-body-color dark:text-body-color-dark text-sm font-medium">
+                      first response
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+        <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"

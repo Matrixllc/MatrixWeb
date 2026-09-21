@@ -1,92 +1,139 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 
 const plans = [
-    {
-        type: "App",
-        title: "Lite",
-        priceMonthly: 19,
-        priceYearly: 199,
-        features: ["Essential components", "1 project usage", "Email support"],
-    },
-    {
-        type: "Web",
-        title: "Pro",
-        priceMonthly: 49,
-        priceYearly: 499,
-        features: ["All components", "Unlimited projects", "Commercial use", "Priority support"],
-    },
-    {
-        type: "App + Web",
-        title: "Plus",
-        priceMonthly: 79,
-        priceYearly: 799,
-        features: ["Full features", "Team access", "Lifetime updates", "Premium support"],
-    },
+  {
+    type: "App",
+    title: "Starter",
+    priceMonthly: 1900,
+    priceYearly: 19000,
+    features: ["Product brief", "Core screens", "Email support"],
+  },
+  {
+    type: "Web",
+    title: "Growth",
+    priceMonthly: 4900,
+    priceYearly: 49000,
+    features: [
+      "Responsive web app",
+      "Integration support",
+      "Commercial handoff",
+      "Priority support",
+    ],
+  },
+  {
+    type: "App + Web",
+    title: "Scale",
+    priceMonthly: 7900,
+    priceYearly: 79000,
+    features: [
+      "Mobile and web delivery",
+      "AI workflow design",
+      "Team training",
+      "Premium support",
+    ],
+  },
 ];
 
 const Pricing = () => {
-    const [isMonthly, setIsMonthly] = useState(true);
+  const [isMonthly, setIsMonthly] = useState(true);
 
-    return (
-        <section className="py-16 bg-white dark:bg-black">
-            <div className="text-center mb-10">
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
-                    Simple and Transparent Pricing
-                </h2>
-                <p className="text-gray-600 dark:text-gray-300">
-                    Choose a plan that fits your needs. No hidden fees.
-                </p>
+  return (
+    <section id="pricing" className="bg-white py-16 dark:bg-black">
+      <div className="container">
+        <div className="mb-10 text-center">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white">
+            Engagement Options
+          </h2>
+          <p className="text-gray-600 dark:text-gray-300">
+            Pick a starting point, then we shape the scope around your team.
+          </p>
 
-                <div className="mt-6 flex justify-center space-x-4">
-                    <button
-                        onClick={() => setIsMonthly(true)}
-                        className={`px-4 py-2 rounded-full font-medium transition ${
-                            isMonthly ? "bg-primary text-white" : "bg-gray-200 dark:bg-gray-700 text-gray-700"
-                        }`}
-                    >
-                        Monthly
-                    </button>
-                    <button
-                        onClick={() => setIsMonthly(false)}
-                        className={`px-4 py-2 rounded-full font-medium transition ${
-                            !isMonthly ? "bg-primary text-white" : "bg-gray-200 dark:bg-gray-700 text-gray-700"
-                        }`}
-                    >
-                        Yearly
-                    </button>
-                </div>
-            </div>
+          <div className="mt-6 flex justify-center space-x-4">
+            <button
+              onClick={() => setIsMonthly(true)}
+              aria-pressed={isMonthly}
+              className={`rounded-xs px-4 py-2 font-medium transition ${
+                isMonthly
+                  ? "bg-primary text-white"
+                  : "bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-200"
+              }`}
+            >
+              Monthly
+            </button>
+            <button
+              onClick={() => setIsMonthly(false)}
+              aria-pressed={!isMonthly}
+              className={`rounded-xs px-4 py-2 font-medium transition ${
+                !isMonthly
+                  ? "bg-primary text-white"
+                  : "bg-gray-200 text-gray-700 dark:bg-gray-700 dark:text-gray-200"
+              }`}
+            >
+              Yearly
+            </button>
+          </div>
+        </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-0">
-                {plans.map((plan) => (
-                    <div
-                        key={plan.title}
-                        className="rounded-lg border border-gray-200 dark:border-gray-700 p-6 text-center shadow-sm"
-                    >
-                        <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
-                            {plan.title} Plan
-                        </h3>
-                        <p className="text-sm text-gray-500 mb-4">{plan.type} Version</p>
-                        <div className="text-3xl font-bold text-primary mb-4">
-                            ${isMonthly ? plan.priceMonthly : plan.priceYearly}
-                            <span className="text-base text-gray-600 dark:text-gray-400 font-medium">
-                /{isMonthly ? "mo" : "yr"}
-              </span>
-                        </div>
-                        <ul className="text-gray-600 dark:text-gray-300 mb-6 space-y-2">
-                            {plan.features.map((feature, index) => (
-                                <li key={index}>✓ {feature}</li>
-                            ))}
-                        </ul>
-                        <button className="w-full py-2 bg-primary text-white rounded-lg hover:opacity-90 transition">
-                            Choose Plan
-                        </button>
-                    </div>
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+          {plans.map((plan) => (
+            <div
+              key={plan.title}
+              className="rounded-xs border border-gray-200 p-6 text-center shadow-sm dark:border-gray-700"
+            >
+              <h3 className="mb-2 text-xl font-semibold text-gray-800 dark:text-white">
+                {plan.title} Plan
+              </h3>
+              <p className="mb-4 text-sm text-gray-500">{plan.type} Version</p>
+              <div className="text-primary mb-4 text-3xl font-bold">
+                $
+                {Number(
+                  isMonthly ? plan.priceMonthly : plan.priceYearly,
+                ).toLocaleString()}
+                <span className="text-base font-medium text-gray-600 dark:text-gray-400">
+                  /{isMonthly ? "mo" : "yr"}
+                </span>
+              </div>
+              <ul className="mb-6 space-y-2 text-gray-600 dark:text-gray-300">
+                {plan.features.map((feature, index) => (
+                  <li
+                    key={index}
+                    className="flex items-center justify-center gap-2"
+                  >
+                    <span className="text-primary" aria-hidden="true">
+                      <svg
+                        width="14"
+                        height="12"
+                        viewBox="0 0 14 12"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1 6L5 10L13 1"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </span>
+                    {feature}
+                  </li>
                 ))}
+              </ul>
+              <Link
+                href="/contact"
+                className="bg-primary block w-full rounded-xs py-2 text-white transition hover:opacity-90"
+              >
+                Choose Plan
+              </Link>
             </div>
-        </section>
-    );
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default Pricing;

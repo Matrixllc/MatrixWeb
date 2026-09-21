@@ -26,16 +26,27 @@ export default function VideoModal({ isOpen, onClose, ...props }: PropsType) {
   }
 
   return createPortal(
-    <div className="fixed inset-0 flex items-center justify-center bg-black/60">
-      <div className="relative w-full max-w-4xl bg-gray-900">
+    <div
+      className="fixed inset-0 z-[10000] flex items-center justify-center bg-black/70 px-4"
+      role="dialog"
+      aria-modal="true"
+    >
+      <div className="relative w-full max-w-4xl overflow-hidden rounded-xs bg-gray-900">
         <button
+          type="button"
           onClick={onClose}
-          className="absolute -top-2 -right-4 translate-x-full text-7xl leading-none text-white"
+          className="absolute top-3 right-3 z-10 flex h-10 w-10 items-center justify-center rounded-xs bg-black/70 text-3xl leading-none text-white transition hover:bg-black"
         >
           <span className="sr-only">Close modal</span>
           &times;
         </button>
-        <iframe width="100%" height="500" src={src} allowFullScreen />
+        <iframe
+          className="aspect-video w-full"
+          src={src}
+          title="Introduction video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
       </div>
     </div>,
     document.body,
